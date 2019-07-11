@@ -12,7 +12,7 @@ const DYNAMIC_CACHE = "dynamic-v1";
 // El App Shell se forma de los elementos que siempre estarán disponibles en la App
 // online u offline. 09/JULIO/2019
 const APP_SHELL = [
-    '/',
+ //   '/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
@@ -22,7 +22,7 @@ const APP_SHELL = [
     'img/avatars/thor.jpg',
     'img/avatars/hulk.jpg',
     'js/app.js',
-    '/js/sw-utils.js'
+    'js/sw-utils.js'
 ];
 
 // En el App Shell inmutable van los recursos que nunca se modificarán. 09/JULIO/2019

@@ -1,8 +1,16 @@
 // Aquí se define si el navegador incluye la funcionalidad del Service Worker
 // y si fuese así, lo registrará. 09/JULIO/2019
 
+var url = window.location.href;
+var swLocation = '/curso/sw.js';
+
 if (navigator.serviceWorker) {
-    navigator.serviceWorker.register("/sw.js");
+
+	if (url.includes('localhost')) {
+		swLocation = "/sw.js";
+	}
+	
+    	navigator.serviceWorker.register(swLocation);
 }
 
 
