@@ -2,7 +2,7 @@
 // y si fuese así, lo registrará. 09/JULIO/2019
 
 var url = window.location.href;
-var swLocation = '/curso/sw.js';
+var swLocation = '/twittor/sw.js';
 
 if (navigator.serviceWorker) {
 
