@@ -1,5 +1,5 @@
 // Importación de librerías/utilidades.
-importScripts('/js/sw-utils.js');
+importScripts('js/sw-utils.js');
 
 
 // Lo primero que se hace en el service worker es definir los 
